@@ -9,18 +9,28 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Import for the shared module and ALL of its components
 import { SharedModule } from './shared/shared.module';
+import { BudgetItemListComponent } from './budget-item-list/budget-item-list.component';
+import { BudgetItemCardComponent } from './budget-item-list/budget-item-card/budget-item-card.component';
+import { AddItemFormComponent } from './add-item-form/add-item-form.component';
+import { FormsModule } from '@angular/forms';
+import { EditItemModalComponent } from './edit-item-modal/edit-item-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    LoginComponent
+    LoginComponent,
+    BudgetItemListComponent,
+    BudgetItemCardComponent,
+    AddItemFormComponent,
+    EditItemModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,11 @@
+# Angular Debug Challenge Project
+In this project, there are 10 bugs spread across the application. The challenge here is to find the bugs and fix them. The challenge IS NOT completed until the project can be produced in complete working order.
+
+### Getting Started
+- Clone the repo
+- cd into `angular-debug-challenge`
+- run `npm install`
+
 # ExpenseApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.

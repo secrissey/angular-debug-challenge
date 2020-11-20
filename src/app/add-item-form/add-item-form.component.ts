@@ -11,7 +11,7 @@ export class AddItemFormComponent implements OnInit {
 
 
   @Input() item: BudgetItem = new BudgetItem('', 0);
-  @Output() formSubmit: EventEmitter<BudgetItem> = new EventEmitter
+  @Output() formSubmits: EventEmitter<BudgetItem> = new EventEmitter
   
   constructor() { }
 

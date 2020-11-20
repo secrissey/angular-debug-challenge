@@ -6,7 +6,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 const routes: Routes = [
   {
     path:'main',
-    component: MainPageComponent
+    component: 
   },
   {
     path: 'login',

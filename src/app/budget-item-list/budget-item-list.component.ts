@@ -22,7 +22,7 @@ export class BudgetItemListComponent implements OnInit {
   @Output() delete: EventEmitter<BudgetItem> = new EventEmitter<BudgetItem>();
   @Output() update: EventEmitter<UpdateEvent> = new EventEmitter<UpdateEvent>();
 
-  constructor(public dialog:MatDialog) { }
+  constructor() { }
 
   onDelete(item: BudgetItem){
     this.delete.emit(item);
